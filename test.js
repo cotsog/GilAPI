@@ -18,4 +18,5 @@ test('responds to requests', (t) => {
 
       t.true(true);
     }); //end request
+  });
 });
