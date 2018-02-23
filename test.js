@@ -1,8 +1,7 @@
 const { spawn } = require('child_process');	
 const request = require('request');
+require('tape').explain = true
 const test = require('tape');
-// verbose
-test.explain = true;
 
 // Start the app	
 const env = Object.assign({}, process.env, {PORT: 5000});	
